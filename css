@@ -1,0 +1,141 @@
+html {
+    background: black;
+    height: 100%;
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: black; 
+    background-attachment: fixed;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bolder;
+}
+    
+    
+nav {
+    /*Gör så att den stannar även vid scroll*/
+    position: 100%; 
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: black;
+}
+
+.navbar-left {
+    color: white;
+    float:left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navbar a:hover {
+    color: grey;
+}
+
+ul {
+    list-style-type: none;
+}
+li {
+    float:right;
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.module{
+    clear: both;
+}
+
+.imgContainer {
+    padding: 50px;
+    display: none;
+}
+
+.container {
+    margin: 100px;
+    
+}
+
+section.module.content {
+    padding: 40px;
+}
+
+section.module.parallax{
+    height: 400px;
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 3em;
+  line-height: 300px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/*Bilderna sätts in*/
+section.module.parallax-1{
+    background-image: url(https://www.kickingdesigns.com/wp-content/uploads/2012/09/hot-air-balloon-9-30-2012_hd-720p.jpg); 
+}
+
+section.module.parallax-2{
+    background-image: url(http://www.gleupold.com/i/black-and-white-rain-iphone-wallpapers.jpg);
+}
+section.module.parallax-3{
+    background-image: url(http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/black-and-white-wallpaper-6.jpg);
+}
+
+section.module.parallax-4{
+    background-image: url(https://wallpaperscraft.com/image/glasses_miscellaneous_book_cloth_black_white_31415_2560x1440.jpg);
+    
+}
+
+section.module.parallax-5{
+    background-image: url(http://cdn.pcwallart.com/images/new-york-city-skyline-black-and-white-wallpaper-3.jpg);
+
+}
+
+
+section.module.parallax-6{
+    background-image: url(   http://images.fromupnorth.com/260/5209cb623fd0e.jpg);
+    
+}
+
+/*Bestämmer storlek på mejl-loggan */
+img {
+    width: 50px;
+}
